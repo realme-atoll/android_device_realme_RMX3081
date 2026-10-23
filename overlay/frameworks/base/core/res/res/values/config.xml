@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2015-2026, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- The bounding path of the cutout region of the main built-in display. -->
+    <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,110 L -386,110 L -386,0 Z</string>
+
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>540</item>
+        <item>2197</item>
+        <item>97</item>
+    </integer-array>
+
+    <!-- The type of the light sensor to be used for automatic brightness. -->
+    <string name="config_displayLightSensorType" translatable="false">qti.sensor.wise_light</string>
+
+    <!-- Udfps animation offset -->
+    <dimen name="udfps_animation_offset">40dp</dimen>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state. -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+
+    <!-- Enable doze alwaysOn Display for Super AMOLED -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Specifies the maximum burn-in offset displacement from the center. -->
+    <integer name="config_burnInProtectionMaxRadius">-1</integer>
+
+    <!-- Specifies the minimum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMinHorizontalOffset">-10</integer>
+
+    <!-- Specifies the maximum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMaxHorizontalOffset">10</integer>
+
+    <!-- Specifies the minimum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
+
+    <!-- Specifies the maximum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Whether device has SuperDart charging support (50W) -->
+    <bool name="config_hasSuperdartCharger">true</bool>
+</resources>
+

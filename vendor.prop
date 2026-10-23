@@ -1,0 +1,31 @@
+#
+# Vendor properties for Realme 8 Pro (RMX3081)
+#
+
+# Audio - Single Loudspeaker (Mono)
+persist.vendor.audio.voicecall.speaker.stereo=false
+vendor.audio.feature.custom_stereo.enable=false
+
+# Bluetooth
+bluetooth.device.default_name=realme 8 Pro
+
+# Display - Super AMOLED 60Hz with HDR & Wide Color
+vendor.display.enable_poms_during_doze=1
+vendor.display.override_doze_mode=1
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Fingerprint (Optical UDFPS)
+ro.vendor.fingerprint.type=optical
+ro.vendor.fingerprint.supports_gestures=false
+ro.vendor.display.fod_pressed_icon=1
+
+# Radio
+ro.vendor.radio.default_network=9,9
+
+# Project
+ro.separate.soft=20711
+
+# USB
+vendor.usb.product_string=realme 8 Pro
