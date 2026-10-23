@@ -1,18 +1,14 @@
-# Device release name
-ro.product.name=RMX3081
-ro.product.product.device=RMX3081
+#
+# System properties for Realme 8 Pro (RMX3081)
+#
 
-# USB and MTP
-sys.usb.controller=a600000.dwc3
-persist.sys.isUsbOtgEnabled=true
-
-# Dynamic Partition
-ro.boot.dynamic_partitions=true
-
-# Encryption
-vendor.gatekeeper.disable_spu=true
-ro.adb.secure=0
-
-# AVB
-ro.boot.avb_version=1.0
-ro.boot.vbmeta.avb_version=1.0
+# Fingerprint (Optical UDFPS)
+persist.vendor.fingerprint.sensor_type=optical
+persist.vendor.fingerprint.optical.sensorlocation=540:2197
+persist.vendor.fingerprint.optical.iconsize=194
+persist.vendor.fingerprint.optical.sensorrotation=0
+persist.vendor.fingerprint.optical.iconnumber=1
+persist.vendor.fingerprint.optical.circlenumber=1
+persist.vendor.fingerprint.fp_id=G_Primax2_G3.0
+ro.hardware.fp.udfps=true
+ro.hardware.fp.side=false
