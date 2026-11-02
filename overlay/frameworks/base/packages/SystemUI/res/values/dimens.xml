@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024 The LineageOS Project
+     Copyright (C) 2024-2026 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <!-- Pixel pitch = 1080px / 6.4 inches diag (approx 61.8 px/mm or dp/mm) -->
     <item name="pixel_pitch" format="float" type="dimen">61.8</item>
 
-    <!-- Physical fingerprint sensor center screen location Y -->
+    <!-- Physical fingerprint sensor center screen location Y (Optical UDFPS) -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2197px</dimen>
+
+    <!-- Vertical padding to center status bar icons with punch-hole center at Y=72px in 140px bar -->
+    <dimen name="status_bar_padding_top">11.5dp</dimen>
+
+    <!-- Margin on left of heads up notification to clear 158px single punch-hole -->
+    <dimen name="heads_up_status_bar_padding_start">115px</dimen>
+
+    <!-- Margin on right side of center clock to balance single-hole notch asymmetry -->
+    <dimen name="status_bar_center_clock_padding_end">124px</dimen>
+
+    <!-- Bottom margin size: 300px ensures indication text sits cleanly above UDFPS icon -->
+    <dimen name="keyguard_indication_margin_bottom">300px</dimen>
+
+    <!-- Top padding of QS panel to align unexpanded QS clock with the notch -->
+    <dimen name="qs_panel_padding_top">80dp</dimen>
 
     <!-- Scale small lockscreen clock for clean side-by-side fit with Smartspace on AOD/lockscreen -->
     <dimen name="small_clock_text_size">75dp</dimen>
