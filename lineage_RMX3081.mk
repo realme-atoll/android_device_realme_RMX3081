@@ -35,3 +35,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX3081 \
     SystemDevice=RMX3081 \
     SystemName=RMX3081
+
+# EvolutionX flags
+TARGET_USES_MINI_GAPPS := true
