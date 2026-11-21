@@ -10,6 +10,9 @@
     <!-- Physical fingerprint sensor center screen location Y (Optical UDFPS) -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">2197px</dimen>
 
+    <!-- Location on the screen of the center of the physical power button -->
+    <dimen name="physical_power_button_center_screen_location_y">1090px</dimen>
+
     <!-- Vertical padding to center status bar icons with punch-hole center at Y=72px in 140px bar -->
     <dimen name="status_bar_padding_top">11.5dp</dimen>
 

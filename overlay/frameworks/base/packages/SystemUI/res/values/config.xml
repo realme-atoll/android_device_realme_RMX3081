@@ -10,4 +10,12 @@
 
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#00ffffff</color>
+
+    <!-- Volume rocker is located on the right side for Realme 8 Pro -->
+    <bool name="config_audioPanelOnLeftSide">false</bool>
+
+    <!-- Expand black protection ring around front punch-hole camera (104, 72) when active -->
+    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <string name="config_protectedCameraId" translatable="false">1</string>
+    <string name="config_frontBuiltInDisplayCutoutProtection" translatable="false">M 104,72 m -50,0 a 50,50 0 1 0 100,0 a 50,50 0 1 0 -100,0 Z</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021-2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Volume panel on right by default (volume buttons are on the right side) -->
+    <bool name="def_volume_panel_on_left">false</bool>
+</resources>
