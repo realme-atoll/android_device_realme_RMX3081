@@ -35,3 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX3081 \
     SystemDevice=RMX3081 \
     SystemName=RMX3081
+
+# Lunaris AOSP flags
+WITH_GMS := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lunaris.maintainer=Nikhil\ Suryavanshi
